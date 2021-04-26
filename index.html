@@ -25,34 +25,36 @@
 
     <div class="container">
 
-        <div class="card m-5 print">
-            <h5 class="card-header">How to print this page</h5>
-            <div class="card-body text-center">
-                <h6 class="card-title">Use the button down below or press <span class="font-weight-bold">CTRL + P</span>
-                    to print this page.</h6>
-                <h5 class="card-title">Additionally, make sure that "Headers and Footers" as well as "Background
-                    graphics" and unticked.</h5>
+        <div class="card m-3 print bg-info-light text-white">
+            <div class="card-body">
+                <h3 class="font-weight-bold">How to print this page</h3>
+                <h6 class="card-title">Use the button down below or press <mark class="font-weight-bold">CTRL + P</mark>
+                    on your keyboard to print this page.</h6>
+                <h6>Ensure that "Headers and Footers" and "Background
+                    graphics" are unticked on the pop-up window (if shown).</h6>
+                <div class="text-center">
+                    <button class="btn btn-lg btn-nhs-green font-weight-bold" onclick="window.print()">
+                        <i class="fas fa-print"></i> Print this page</button>
+                </div>
 
-                <button class="btn btn-primary" onclick="window.print()">
-                    <i class="fas fa-print"></i> Print</button>
             </div>
         </div>
 
 
         <div class="text-center">
             <h1>Orthostatic Hypotension Chart</h1>
-            <p class="print">
+            <p>
                 Definition: ‘a sudden drop in blood pressure when you stand from a seated or prone (lying down)
                 position’
             </p>
 
-            <p class="print">
+            <p>
                 How to perform: Complete a Lying + Standing Blood pressure. Ask the patient to lie down for 5 minutes or
                 more on the bed. Check blood pressure while patient is in supine position. Then stand the patient and
                 check the blood pressure after 1 minute of standing, then after 3 minutes of standing.
             </p>
 
-            <p class="print">
+            <p>
                 How to identify: A decrease in systolic blood pressure of 20mmHg or more, <span
                     class="text-danger font-weight-bold">OR</span> a decrease in diastolic
                 blood pressure of 10mmHg or more.
@@ -130,9 +132,7 @@
 
     <div class="container pt-5">
 
-        <h5 class="print">
-            Associated symptoms with Orthostatic Hypotension
-        </h5>
+        <h5>Associated symptoms with Orthostatic Hypotension</h5>
 
         <ul class="print">
             <li>Light-headedness or dizziness upon standing</li>
@@ -187,10 +187,19 @@
 
 <footer class="print text-white bg-dark mt-5 p-5 text-center">
     <div class="container">
-        <!-- <p>
-            <a class="toplink" href="#"><i class="fas fa-chevron-up"></i> Back to top</a>
-        </p> -->
-        <p>&copy; Content & layout by Rebecca McElroy </p>
+        <p>
+            <script>
+                document.write(new Date().getFullYear())
+            </script> &copy; Content and layout was provided and written by Rebecca McElroy.
+        </p>
+        <small>This page is not associated with the NHS. It is unofficial and completely independent. It was created to
+            make the daily life of nurses and other staff members easier.</small>
+
+        <p class="mt-3">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+        </p>
+
     </div>
 </footer>
 

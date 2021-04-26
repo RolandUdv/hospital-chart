@@ -14,7 +14,7 @@ iframe,
 @media print {
     .print-row {
         /* display: block!important; */
-        height: 400px!important;
+        height: 320px!important;
         width: 210px!important;
     }
 }

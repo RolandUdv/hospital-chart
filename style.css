@@ -1,30 +1,56 @@
-    hr {
-        padding-bottom: 15px;
-        border-top: 1px solid #000000 !important;
-    }
+button:focus,
+a:focus, .btn:focus {
+    outline: none!important;
+}
 
-    .fa,
-    .fas {
-        font-size: 20px !important;
-    }
+hr {
+    padding-bottom: 15px;
+    border-top: 1px solid #000000 !important;
+}
 
-    a.toplink {
-        color: #ffffff;
-    }
+.fa,
+.fas {
+    font-size: 20px !important;
+}
 
-    .fab {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 40px;
-        right: 40px;
-        background-color: #005EB8;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        box-shadow: 2px 2px 3px #42556356;
-    }
+a.toplink {
+    color: #ffffff;
+}
 
-    .fa-chevron-up {
-        margin-top: 22px !important;
-    }
+.fab {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #005EB8;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #42556356;
+}
+
+.fab:hover {
+    background-color: #01498b;
+    color: #ffffff!important;
+}
+
+.fa-chevron-up {
+    margin-top: 22px !important;
+}
+
+.bg-info-light {
+    background-color: #005EB8 !important;
+    border: 0 !important;
+    box-shadow: 3px 3px 3px #42556356;
+}
+
+.btn-nhs-green {
+    background-color: #007f3b !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 0 #00401e;
+}
+
+.btn-nhs-green:hover {
+    background-color: #016b33 !important;
+}
